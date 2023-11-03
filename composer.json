@@ -1,0 +1,16 @@
+{
+    "name": "user/eco.ponto",
+    "autoload": {
+        "psr-4": {
+            "User\\EcoPonto\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Felipe"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
+}

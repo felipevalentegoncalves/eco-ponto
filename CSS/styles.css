@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.custom-navbar {
+  background-color: #0E572C;
+}
+
+.navbar-brand img {
+  width: 100px;
+}
+
+.custom-navbar .navbar-nav .nav-link {
+  color: #fff; 
+  text-align: center;
+}
+
+#main-title {
+  text-align: center;
+  margin: 15px 0 30px;
+}
+
+/* HOME */
+#contacts-table {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#contacts-table thead {
+  color: #FFF;
+  background-color: #0E572C;
+}
+
+.col-id {
+  font-weight: bold;
+}
+
+.actions {
+  text-align: center;
+  width: 150px;
+}
+
+.actions i {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.check-icon {
+  color: #1E7E34;
+}
+
+.edit-icon {
+  color: #007BFF;
+}
+
+.delete-form {
+  display: inline-block;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.delete-icon {
+  color: #BD2130;
+}
+
+#empty-list-text {
+  text-align: center;
+}
+
+#msg {
+  color: #0E572C;
+  background-color: #D4EDDA;
+  border: 1px solid #C3E6CB;
+  padding: 10px;
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+/* SHOW */
+#view-contact-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* CREATE */
+
+#back-link-container {
+  display: block;
+  width: 500px;
+  margin: 30px auto 0;
+}
+
+#back-link {
+  border: 1px solid #0E572C;
+  color: #0E572C;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+#back-link:hover {
+  background-color: #0E572C;
+  color: #fff;
+  text-decoration: none;
+}
+
+#create-form,
+#edit-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.btn-primary {
+  background-color: #0E572C;
+  color: #fff;
+  border-color: #0E572C;
+  margin: 20px 0;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+  color: #0E572C;
+  border-color: #0E572C;
+}
+
+/* SOBRE */
+
+.center {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.container-sobre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-principal {
+  text-align: justify;
+  max-width: 600px; 
+  padding: 20px;
+}
+
+/*RODAPÉ*/
+.rodape {
+  text-align: center;
+  background-color: #0E572C;
+  color: #fff; 
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+}
